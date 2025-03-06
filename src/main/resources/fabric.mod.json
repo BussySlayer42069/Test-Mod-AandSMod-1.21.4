@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "archaeology-and-smells-mod",
+	"version": "${version}",
+	"name": "Archaeology and Smells Mod",
+	"description": "Dig deep into the Sniffers strange-smelling history and unearth secrets untold!",
+	"authors": [
+		"BussySlayer42069"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://https://github.com/BussySlayer42069/archaeology-and-smells-mod-template-1.21.4"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/archaeology-and-smells-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.bussyslayer42069.archaeologyandsmellsmod.ArchaeologyAndSmellsMod"
+		],
+		"fabric-datagen": [
+			"com.bussyslayer42069.archaeologyandsmellsmod.ArchaeologyAndSmellsModDataGenerator"
+		],
+		"client": [
+			"com.bussyslayer42069.archaeologyandsmellsmod.ArchaeologyandSmellsModClient"
+		]
+	},
+	"mixins": [
+		"archaeology-and-smells-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
