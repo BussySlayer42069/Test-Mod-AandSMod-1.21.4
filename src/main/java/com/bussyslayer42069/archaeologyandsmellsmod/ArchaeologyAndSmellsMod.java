@@ -11,5 +11,6 @@ public class ArchaeologyAndSmellsMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 	}
 }
