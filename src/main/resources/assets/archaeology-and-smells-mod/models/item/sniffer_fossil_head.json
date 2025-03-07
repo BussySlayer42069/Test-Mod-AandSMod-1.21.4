@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generate",
+  "textures": {
+    "layer0": "archaeologyandsmellsmod.item/sniffer_fossil_head"
+  }
+}
